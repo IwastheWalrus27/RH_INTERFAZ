@@ -1,0 +1,76 @@
+<!--0: Campo 
+1: type
+-->
+
+
+<div class="reg" >
+    <div *ngFor="let field of formFields">
+        {{field[0]}} <br> <input [type]="field[1]" style="font-size: 25px;"> <br>
+    </div>
+    Moneda <br>
+    <select name="moneda" style="font-size: 25px;">
+        <option value="Dolar">Dolar</option>
+        <option value="Peso">Peso</option>        
+    </select> <br>
+    Sueldo neto mensual <br> <input type="text" style="font-size: 25px;"><br>
+    Método de pago<br>
+    <select name="metodoPago" style="font-size: 25px;">
+        <option value="Efectivo">Efectivo</option>
+        <option value="Tarjeta de credito">Tarjeta de credito</option>        
+    </select> <br>
+    Asistencia<br> <input type="text" style="font-size: 25px;" placeholder="0.0"><br>
+    Puntualidad<br> <input type="text" style="font-size: 25px;" placeholder="0.0"><br>
+    Costo Empresa <br> <input type="text" style="font-size: 25px;" ><br>
+    Seguro social <br> <input type="text" style="font-size: 25px;" ><br>
+    Beneficiario <br> <input type="text" style="font-size: 25px;"><br>
+    Parentesco<br>
+    <select name="Parentesco" style="font-size: 25px;">
+        <option value="Padre">Padre</option>
+        <option value="pensionista">Pensionista</option>        
+        <option value="TrabajadorDomestico">Trabajador Domestico</option>
+    </select> <br>
+    RFC/Identificador <br> <input type="text" style="font-size: 25px;" ><br>
+    Direccion beneficiario<br> <input type="text" style="font-size: 25px;" ><br>
+    Banco <br><select name="banco" style="font-size: 25px;">
+        <option value="bbva">BBVA</option>
+        <option value="banamex">Banamex</option>        
+        <option value="hsbc">HSBC</option>
+    </select><br>
+    Numero cuenta<br> <input type="text" style="font-size: 25px;" ><br>
+    Titular <br> <input type="text" style="width: 380px; font-size: 25px;" placeholder="Colaborador1 Apellido1 Apellido2"><br>
+    CLABE<br> <input type="text" style="font-size: 25px;" ><br>
+    TDD<br> <input type="text" style="font-size: 25px;" ><br>
+    Puesto <br><select name="puesto" style="font-size: 25px;">
+        <option value="Director">Director</option>
+        <option value="Empleado">Empleado</option>
+        <option value="Recepcionista">Recepcionista</option>
+    </select><br>
+    Druación de Contrato <br><select name="duracionCont" style="font-size: 25px;">
+        <option value="indeterminado">Contrato de trabajo por tiemppo indeterminado</option>
+        <option value="Empleado">Empleado</option>
+        <option value="Recepcionista">Recepcionista</option>
+    </select><br>
+    Actividades del Puesto <br>
+    <textarea name="actPuesto" cols="60" rows="5"></textarea><br>
+    País trabajo <br><select name="paises" style="font-size: 25px;">
+        <option value="mexico">México</option>
+        <option value="eua">Estados Unidos</option>   
+    </select><br>
+    Entidad Federativa de Trabajo<br><select name="paises" style="font-size: 25px;">
+        <option value="nuevoLeon">Nuevo León</option>
+        <option value="morelos">Morelos</option>   
+    </select><br>
+    Turno de trabajo<br><select name="turnoTrabajo" style="font-size: 25px;">
+        <option value="diurno">Diurno</option>
+        <option value="mixta">Mixto</option>
+        <option value="nocturno">Nocturno</option>       
+    </select><br>
+    Puesto con el cliente<br> <input type="text" style="font-size: 25px;" ><br>
+
+    <button (click)="invokeGuardar(categoria)">Guardar</button>
+
+</div>
+
+
+
+

@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Form } from '../model/form';
-import { SideBarComponent } from '../side-bar/side-bar.component';
+
 
 @Component({
   selector: 'app-domicilio',
@@ -9,11 +8,18 @@ import { SideBarComponent } from '../side-bar/side-bar.component';
 })
 export class DomicilioComponent implements OnInit {
   
-  form: Form;
+  formFields:Array<string> = [];
   constructor() { }
 
   ngOnInit(): void {
-
+    this.formFields.push(
+      'Calle',
+      'Número exterior',
+     'Número interior',
+     'Colonia',
+     'Privada',
+     'Edificio'
+    );
   }
 
 }

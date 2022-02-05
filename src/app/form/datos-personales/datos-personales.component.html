@@ -1,31 +1,8 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>DATOS PERSONALES</title>
-</head>
-<body>
-    <div id="datosPersonales">
-    <progress id="file" max="100" value="10"> 10% </progress>
-        <form><br/>
-            <p>*Nombre<br><input type="text" placeholder="Colaborador1" /></p>
-            <p>*Apellido Paterno<br><input type="text" placeholder="Apellido1" /></p>
-            <p>*Apellido Materno<br><input type="text" placeholder="Apellido2" /></p>
-            <p>*Ciudad Nacimiento<br><select name="select">
-            <option value="value1">CIUDAD DE MÉXICO</option>
-            <option value="value2" selected>MONTERREY</option>
-            <option value="value3">ACAPULCO</option>
-            </select></p>
-            <p>*Disponibilidad Mensual<br><input type="text" placeholder="1000" /></p>
-            <p>*Fecha Nacimiento<br><input type="text" placeholder="2005-01-01" /></p>
-            <p>*Nacionalidad<br><input type="text" placeholder="Mexicana" /></p>
-        </form>
+
+<div class="reg" >
+    <div *ngFor="let field of formFields">
+        {{field}} <br> <input type="text" style="font-size: 25px;"> <br>
     </div>
-    <div align="center">
-        <form action="formulario2.html">
-            <input type="submit" value="Siguiente" />
-    </form>
-    </div>
-</body>
-</html>
+</div>
+
+

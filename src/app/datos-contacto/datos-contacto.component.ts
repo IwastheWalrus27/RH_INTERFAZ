@@ -7,9 +7,20 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DatosContactoComponent implements OnInit {
 
+  formFields: Array<string> = [];
   constructor() { }
 
   ngOnInit(): void {
+    this.formFields.push(
+      'Telefono Casa',
+      'Telefono Recados',  
+      'Telefono Celular', 
+      'Telefono Celular 2', 
+       'Telefono Celular Empresa',
+       'E-mail',
+       'E-mail 2',
+       'E-mail empresarial'
+    ); 
   }
 
 }

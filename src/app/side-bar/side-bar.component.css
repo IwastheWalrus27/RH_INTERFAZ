@@ -1,18 +1,29 @@
 
 
 #sideBar{
-    background-color: #94aedf;
-    width: 20%;
-    margin: 5px;
-    height: 80%;
+    position: fixed;
+    background-color: #3db8b1;
+    width: 470px;
+    margin: 0px;
+    margin-top: 60px;
+    height: 800px;
     border-radius: 5px;
-    
-    
+    line-height: 40px;
+
 }
 
 a{
-    color: black;
+    color: rgb(31, 30, 30);
     text-decoration: none;
     font-size: 40px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
+.on{
+    color: rgb(31, 30, 30);
+}
+
+.off{
+    color: gray;
+}
+
