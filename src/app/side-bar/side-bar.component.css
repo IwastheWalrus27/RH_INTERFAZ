@@ -3,10 +3,10 @@
 #sideBar{
     position: fixed;
     background-color: #3db8b1;
-    width: 470px;
+    width: 435px;
     margin: 0px;
-    margin-top: 60px;
-    height: 800px;
+    margin-top: 0px;
+    height: auto;
     border-radius: 5px;
     line-height: 40px;
 
@@ -15,7 +15,7 @@
 a{
     color: rgb(31, 30, 30);
     text-decoration: none;
-    font-size: 40px;
+    font-size: 30px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
@@ -27,3 +27,6 @@ a{
     color: gray;
 }
 
+.mat-progress-bar{
+    height: 50px;
+}

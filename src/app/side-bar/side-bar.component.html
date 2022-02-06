@@ -1,11 +1,11 @@
 <div style="position: relative; margin: 10px;">
-  <mat-progress-bar  [value]="getProgressValue()" ></mat-progress-bar>
+  <mat-progress-bar  [value]="getProgressValue()" > </mat-progress-bar>
 </div>
 <div id="sideBar">
   <div *ngFor="let form of this.getFormList(); index as i" >
     <ul>
       <li>
-          <a routerLink="{{form.route}}" [class]="checkIfDone(i)? 'on': 'off'">{{form.name}}</a>   
+          <a  routerLink="{{form.route}}" [class]="checkIfDone(i)? 'on': 'off'">{{form.name}}</a>   
       </li>
     </ul>  
   </div>

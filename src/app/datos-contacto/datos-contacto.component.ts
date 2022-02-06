@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { SideBarComponent } from '../side-bar/side-bar.component';
 
 @Component({
   selector: 'app-datos-contacto',
@@ -22,5 +23,10 @@ export class DatosContactoComponent implements OnInit {
        'E-mail empresarial'
     ); 
   }
+  categoria:string = 'Datos de Contacto';
 
+  invokeGuardar(categoria:string):void{
+    console.log('hola');
+    SideBarComponent.toggleGuardar(categoria);
+  }
 }

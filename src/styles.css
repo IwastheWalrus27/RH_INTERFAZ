@@ -1,15 +1,15 @@
 .reg{
     font-size: 30px;
     color:#484b4e;
-    font-family: Roboto, "Helvetica Neue", sans-serif;
+    font-family: Inter,Helvetica,"Apple Color Emoji","Segoe UI Emoji",NotoColorEmoji,"Noto Color Emoji","Segoe UI Symbol","Android Emoji",EmojiSymbols,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans",sans-serif;
     width:50%;
     padding: 10px;
-    border: 5px solid #6c74f0;
+    border: 5px solid #3db8b1;
     margin: auto;
     line-height: 40px;
     text-align: center;
     background-color: #f5f5f5;
-    
+    border-radius: 5px;
 }
 
 
@@ -17,3 +17,31 @@ body{
     background-color: #e2fffd;
 }
 
+button {
+    background: #3b3bf5;
+    border-radius: 999px;
+    box-shadow: #5E5DF0 0 10px 20px -10px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: Inter,Helvetica,"Apple Color Emoji","Segoe UI Emoji",NotoColorEmoji,"Noto Color Emoji","Segoe UI Symbol","Android Emoji",EmojiSymbols,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans",sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    opacity: 1;
+    outline: 0 solid transparent;
+    padding: 8px 18px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: fit-content;
+    word-break: break-word;
+    border: 0;
+  }
+
+input{
+    font-size: 25px;
+}
+select{
+    font-size: 25px;
+}

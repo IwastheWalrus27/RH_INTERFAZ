@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+import { SideBarComponent } from '../side-bar/side-bar.component';
 
 @Component({
   selector: 'app-domicilio',
@@ -20,6 +20,12 @@ export class DomicilioComponent implements OnInit {
      'Privada',
      'Edificio'
     );
+  }
+
+  categoria:string = 'Domicilio';
+
+  invokeGuardar(categoria:string):void{
+    SideBarComponent.toggleGuardar(categoria);
   }
 
 }

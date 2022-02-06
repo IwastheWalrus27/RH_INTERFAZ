@@ -7,7 +7,7 @@ import { Form } from '../model/form';
 })
 export class SideBarComponent implements OnInit {
   //Nombre en lista | path para routerLink | boolean para checar si ya se terminó o no esa categoria
-
+ 
   static progressValue: number = 0;
 
   static categorias: string[][] = [
@@ -65,11 +65,12 @@ export class SideBarComponent implements OnInit {
 
 
   static increaseProgressBar():void{
-    let step = 10;
+    let step = SideBarComponent.categorias.length;
     SideBarComponent.progressValue += step;
   }
 
   getProgressValue():number{
     return SideBarComponent.progressValue;
   }
+
 }

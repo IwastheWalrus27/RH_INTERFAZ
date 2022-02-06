@@ -1,6 +1,21 @@
 <body>
-    <app-side-bar></app-side-bar>
+    <div *ngIf="getProgress()<100">
+        <app-side-bar></app-side-bar>
+        <div class="reg" *ngIf="!checkStarted()">
+            <h1>
+                Bienvenido
+            </h1>
+            <h2>
+                Elige una de las categorias de la izquierda para comenzar
+            </h2> 
+            <button (click)="(started == false)? toggleStarted(): null "> Entendido</button>
+     </div>
+    </div>
+    <div *ngIf="getProgress()>=100">
+        <div class="reg">Terminaste</div>
+    </div>
 </body>
+
 
 
 

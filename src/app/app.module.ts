@@ -15,6 +15,12 @@ import { DomicilioComponent } from './domicilio/domicilio.component';
 import { DatosContactoComponent } from './datos-contacto/datos-contacto.component';
 import { ContratoEmpresaComponent } from './contrato-empresa/contrato-empresa.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { EmpresaComponent } from './empresa/empresa.component';
+import { AcCursosComponent } from './ac-cursos/ac-cursos.component';
+import { VacacionesComponent } from './vacaciones/vacaciones.component';
+import { AcProComponent } from './ac-pro/ac-pro.component';
+import { ContactosComponent } from './contactos/contactos.component';
+import { ExpAnotacionesComponent } from './exp-anotaciones/exp-anotaciones.component';
 
 
 @NgModule({
@@ -25,6 +31,12 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     DomicilioComponent,
     DatosContactoComponent,
     ContratoEmpresaComponent,
+    EmpresaComponent,
+    AcCursosComponent,
+    VacacionesComponent,
+    AcProComponent,
+    ContactosComponent,
+    ExpAnotacionesComponent,
 
   ],
   imports: [

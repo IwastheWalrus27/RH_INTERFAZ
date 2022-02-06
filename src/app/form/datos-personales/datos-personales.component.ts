@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { SideBarComponent } from 'src/app/side-bar/side-bar.component';
 
 @Component({
   selector: 'app-datos-personales',
@@ -23,5 +24,9 @@ export class DatosPersonalesComponent implements OnInit {
     );
     
   }
+  categoria:string = 'Datos Personales';
 
+  invokeGuardar(categoria:string):void{
+    SideBarComponent.toggleGuardar(categoria);
+  }
 }
