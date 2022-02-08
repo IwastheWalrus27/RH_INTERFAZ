@@ -1,4 +1,49 @@
-<div class="reg">
+<div class="reg" >
+ 
+   
+     Fecha Inicial <br> <input type="date" style="font-size: 25px;"><br>
+    Fecha Final <br> <input type="date" style="font-size: 25px;"><br>
 
-    <button (click)="invokeGuardar(categoria)">Guardar</button>
+
+    Cliente<br><select name="cliente" style="font-size: 25px;">
+        <option value="cliente0">Cliente 0</option>
+        <option value="cliente1">Cliente 1</option>        
+        <option value="cliente2">Cliente 2</option>
+    </select> <br>
+
+    Cebtro de Costo<br><select name="centroDeCosto" style="font-size: 25px;">
+        <option value="centrodecosto0">Cebtro de Costo 0</option>
+        <option value="centrodecosto1">Cebtro de Costo 1</option>        
+        <option value="centrodecosto2">Cebtro de Costo 2</option>
+    </select> <br>
+
+    Proyectos<br><select name="proyectos" style="font-size: 25px;">
+        <option value="proyectos0">Proyectos 0</option>
+        <option value="proyectos1">Proyectos 1</option>        
+        <option value="proyectos2">Proyectos 2</option>
+    </select> <br>
+
+    Oficina<br><select name="oficina" style="font-size: 25px;">
+        <option value="oficina0">Oficina #1</option>
+        <option value="oficina1">Oficina #2</option>        
+        <option value="oficina2">Oficina #3</option>
+    </select> <br>
+
+    Jefe Directo<br><select name="jefeDirecto" style="font-size: 25px;">
+        <option value="jefeDirecto0">Jefe Directo #1</option>
+        <option value="jefeDirecto1">Jefe Directo #2</option>        
+        <option value="jefeDirecto2">Jefe Directo #3</option>
+    </select> <br>
+
+    Gerente<br><select name="gerente" style="font-size: 25px;">
+        <option value="gerente0">Gerente #1</option>
+        <option value="gerente1">Gerente #2</option>        
+        <option value="gerente2">Gerente #3</option>
+    </select> <br>
+
+       Porcentaje<br> <input type="text" style="font-size: 25px;"><br>
+
+   <button (click)="invokeGuardar(categoria)">Guardar</button>
+
+
 </div>

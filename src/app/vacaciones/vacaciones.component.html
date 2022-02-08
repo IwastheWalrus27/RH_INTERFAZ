@@ -1,3 +1,24 @@
-<div class="reg">
-    <button (click)="invokeGuardar(categoria)">Guardar</button>
+<div class="reg" >
+
+   
+	Estatus<br><select name="Estatus" style="font-size: 25px;">
+        <option value="pendiente">Pendiente</option>
+        <option value="vencidas">Vencidas</option>        
+        <option value="activas">Activas</option>
+    </select> <br>
+
+    Tipo de Solicitud<br><select name="TipodeSolicitud" style="font-size: 25px;">
+        <option value="vacaciones">Vacaciones</option>
+    </select> <br>
+
+    Fecha Inicial <br> <input type="date" style="font-size: 25px;"><br>
+    Fecha Final <br> <input type="date" style="font-size: 25px;"><br>
+   	Dias Solcitados<br> <input type="text" style="font-size: 25px;"><br>
+    Dias Restantes<br> <input type="text" style="font-size: 25px;"><br>
+
+   
+
+    Buscar<br> <input type="text" style="font-size: 25px;"><br>
+    <button (click)="invokeGuardar(categoria)">Guardar</button> <br>
+
 </div>

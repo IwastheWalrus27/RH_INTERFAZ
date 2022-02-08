@@ -17,10 +17,7 @@ export class DatosPersonalesComponent implements OnInit {
       'Nombre',
       'Apellido Paterno',
       'Apellido Materno',
-      'Ciuidad nacimiento',
-      'Disponibilidad mensual',
-      'Fecha nacimiento',
-      'Nacionalidad'
+
     );
     
   }

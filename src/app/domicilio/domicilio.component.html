@@ -1,10 +1,50 @@
 
 <div class="reg" >
-    <div *ngFor="let field of formFields">
-        
-        {{field}} <br> <input type="text" style="font-size: 25px;"> <br>
-    </div>
-    
+    Calle <br><input type="text"><br>
+    Colonia<br><input type="text"><br>
+    Piso<br><input type="text"><br>
+    Número Exterior<br><input type="text"><br>
+    Privada <br><input type="text"><br>
+    CP<br><input type="text"><br>
+    Número Interior<br><input type="text"><br>
+    Edificio<br><input type="text"><br>
+
+    País <br><select name="pais">
+        <option value="mexico">México</option>
+        <option value="eua">Estados Unidos</option>
+    </select> <br>
+    Estado <br><select name="estado">
+        <option value="nl">Nuevo León</option>
+        <option value="morelos">Morelos</option>
+    </select> <br>
+    Ciudad <br> <select name="ciudad">
+        <option value="nl">Nuevo León</option>
+        <option value="morelos">Morelos</option>
+    </select> <br>
+    <br>
+    <h2>Domicilio Fiscal</h2>
+    Calle <br><input type="text"><br>
+    Colonia<br><input type="text"><br>
+    Piso <br><input type="text"><br>
+    Número Exterior <br><input type="text"><br>
+    Privada <br><input type="text"><br>
+    CP <br><input type="text"><br>
+    Número Interior <br><input type="text"><br>
+    Edificio <br><input type="text"><br>
+
+    País <br><select name="pais">
+        <option value="mexico">México</option>
+        <option value="eua">Estados Unidos</option>
+    </select> <br>
+    Estado <br><select name="estado">
+        <option value="nl">Nuevo León</option>
+        <option value="morelos">Morelos</option>
+    </select> <br>
+    Ciudad <br> <select name="ciudad">
+        <option value="nl">Nuevo León</option>
+        <option value="morelos">Morelos</option>
+    </select> <br>
+
     <button (click)="invokeGuardar(categoria)">Guardar</button>
 </div>
 
