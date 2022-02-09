@@ -45,3 +45,8 @@ input{
 select{
     font-size: 25px;
 }
+
+.titulo{
+    font-weight: bold;
+    font-size: 35px;
+}

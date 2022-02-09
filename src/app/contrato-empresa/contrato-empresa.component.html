@@ -4,6 +4,7 @@
 
 
 <div class="reg" >
+    <p class="titulo">{{categoria}}</p>
     <div *ngFor="let field of formFields">
         {{field[0]}} <br> <input [type]="field[1]" style="font-size: 25px;"> <br>
     </div>
